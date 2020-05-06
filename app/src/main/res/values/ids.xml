@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="actionbar" type="id" />
+    <item name="actionbarTitle" type="id" />
+    <item name="actionbarLeft" type="id" />
+    <item name="actionbarRight" type="id" />
+    <item name="btnOk" type="id" />
+    <item name="btnCancel" type="id" />
+    <item name="navigationView" type="id" />
+    <item name="drawerLayout" type="id" />
+    <item name="fragmentHolder" type="id" />
+    <item name="childFragmentHolder" type="id" />
+    <item name="bottomNavView" type="id" />
+</resources>

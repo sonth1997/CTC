@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "424452603244",
+    "firebase_url": "https://ctcapi.firebaseio.com",
+    "project_id": "ctcapi",
+    "storage_bucket": "ctcapi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424452603244:android:e8f50b81255e716960c749",
+        "android_client_info": {
+          "package_name": "com.example.ctc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424452603244-84ggv9h46b98ftu7eraeoo2poq1f4rlj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ctc",
+            "certificate_hash": "6e37691b6a6ea020e00386bd467e382e2fde604a"
+          }
+        },
+        {
+          "client_id": "424452603244-7tm720iuas8aakt6j6m8m4v1vpho3eqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCREyyXiS5VfyXBaxmZqvGBD47YC_M4knw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424452603244-7tm720iuas8aakt6j6m8m4v1vpho3eqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

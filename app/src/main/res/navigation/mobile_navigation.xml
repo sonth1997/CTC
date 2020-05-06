@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ctc.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_dialogHome"
+            app:destination="@id/dialogHome" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_group"
+            app:destination="@id/nav_group" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_log"
+        android:name="com.example.ctc.logs.view.LogsFragment"
+        android:label="fragment_word"
+        tools:layout="@layout/fragment_word" />
+    <fragment
+        android:id="@+id/nav_group"
+        android:name="com.example.ctc.group.view.GroupFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_group">
+        <action
+            android:id="@+id/action_nav_group_to_addGroupFragment"
+            app:destination="@id/addGroupFragment" />
+        <argument
+            android:name="Name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_nav_group_to_spendFragment2"
+            app:destination="@id/spendFragment2" />
+        <action
+            android:id="@+id/action_nav_group_to_addSpendFragment"
+            app:destination="@id/addSpendFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="com.example.ctc.user.UserFragment"
+        android:label="UserFragment" />
+    <fragment
+        android:id="@+id/addSpendFragment"
+        android:name="com.example.ctc.spend.add.view.AddSpendFragment"
+        android:label="fragment_add_spend"
+        tools:layout="@layout/fragment_add_spend" >
+        <action
+            android:id="@+id/action_addSpendFragment_to_spendFragment2"
+            app:destination="@+id/spendFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/addGroupFragment"
+        android:name="com.example.ctc.group.add.view.AddGroupFragment"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" >
+        <action
+            android:id="@+id/action_addGroupFragment_to_nav_group"
+            app:destination="@id/nav_group" />
+    </fragment>
+    <fragment
+        android:id="@+id/dialogHome"
+        android:name="com.example.ctc.dialog.DialogHome"
+        android:label="dialog_home"
+        tools:layout="@layout/dialog_home" >
+        <argument
+            android:name="text"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/spendFragment2"
+        android:name="com.example.ctc.spend.view.SpendFragment"
+        android:label="fragment_spend"
+        tools:layout="@layout/fragment_spend" >
+        <action
+            android:id="@+id/action_spendFragment2_to_addSpendFragment3"
+            app:destination="@id/addSpendFragment" />
+        <action
+            android:id="@+id/action_spendFragment2_to_nav_group"
+            app:destination="@id/nav_group" />
+        <action
+            android:id="@+id/action_spendFragment2_to_spendDetailAfterFragment"
+            app:destination="@id/spendDetailAfterFragment" />
+        <action
+            android:id="@+id/action_spendFragment2_to_updateGroupFragment"
+            app:destination="@id/updateGroupFragment" />
+        <action
+            android:id="@+id/action_spendFragment2_to_addSpendFragment"
+            app:destination="@id/addSpendFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.example.ctc.spend.add.view.NoteFragment"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/spendDetailAfterFragment"
+        android:name="com.example.ctc.spend.detail.view.SpendDetailAfterFragment"
+        android:label="fragment_spend_detail_after"
+        tools:layout="@layout/fragment_spend_detail_after" >
+        <action
+            android:id="@+id/action_spendDetailAfterFragment_to_addSpendFragment"
+            app:destination="@id/addSpendFragment" />
+        <action
+            android:id="@+id/action_spendDetailAfterFragment_to_spendFragment2"
+            app:destination="@id/spendFragment2" />
+        <action
+            android:id="@+id/action_spendDetailAfterFragment_to_updateSpendFragment"
+            app:destination="@id/updateSpendFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateGroupFragment"
+        android:name="com.example.ctc.group.update.UpdateGroupFragment"
+        android:label="fragment_edit_group"
+        tools:layout="@layout/fragment_edit_group" >
+        <action
+            android:id="@+id/action_updateGroupFragment_to_spendFragment2"
+            app:destination="@id/spendFragment2" />
+        <action
+            android:id="@+id/action_updateGroupFragment_to_nav_group"
+            app:destination="@id/nav_group" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateSpendFragment"
+        android:name="com.example.ctc.spend.detail.view.UpdateSpendFragment"
+        android:label="fragment_edit_spend"
+        tools:layout="@layout/fragment_edit_spend" />
+</navigation>

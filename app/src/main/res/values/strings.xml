@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CTC</string>
+    <string name="trend">Trend</string>
+    <string name="word">Word</string>
+    <string name="spend">Spend</string>
+    <string name="statistical">Statistical</string>
+    <string name="user">User</string>
+    <string name="add">Add</string>
+    <string name="group">Group</string>
+    <string name="logs">Logs</string>
+    <string name="facebook_app_id">1297932043928247</string>
+    <string name="fb_login_protocol_scheme">fb1297932043928247</string>
+    <string name="wes">Wes</string>
+    <string name="money_edit">Money</string>
+    <string name="nhom">Nhóm</string>
+    <string name="add_expensive">Add expensive</string>
+    <string name="save">SAVE</string>
+    <string name="enter_a_description">Enter a description</string>
+    <string name="today">Today</string>
+    <string name="them_ghi_chu">Thêm ghi chú</string>
+    <string name="todo">TODO</string>
+    <string name="chon_thoi_gian">Chọn thời gian</string>
+    <string name="money">Money</string>
+
+</resources>

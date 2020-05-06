@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#F8B601</color>
+    <color name="colorButton">#1E8EEF</color>
+    <color name="colorButtonNavCheck">#F46B49</color>
+    <color name="colorButtonNavNotCheck">#3F434C</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextBlack">#050505</color>
+    <color name="colorView">#E7E4E4</color>
+    <color name="colorTextOrange">#FF6600</color>
+    <color name="colorImage">#D8D5D4</color>
+    <color name="colorButtonDetailAfter">#009688</color>
+    <color name="colorButtonDelete">#800303</color>
+    <color name="colorButtonLoginFaceBook">#3A5FCD</color>
+    <color name="colorButtonLoginGmail">#FFFFFF</color>
+
+
+
+</resources>
